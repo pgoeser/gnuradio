@@ -1,6 +1,6 @@
 /* -*- c++ -*- */
 /*
- * Copyright 2004,2005,2006,2007,2008,2009 Free Software Foundation, Inc.
+ * Copyright 2004,2005,2006,2007,2008,2009,2010 Free Software Foundation, Inc.
  * 
  * This file is part of GNU Radio
  * 
@@ -146,6 +146,7 @@
 #include <gr_annotator_alltoall.h>
 #include <gr_annotator_1to1.h>
 #include <gr_burst_tagger.h>
+#include <gr_cpm.h>
 %}
 
 %include "gr_nop.i"
@@ -272,3 +273,4 @@
 %include "gr_annotator_alltoall.i"
 %include "gr_annotator_1to1.i"
 %include "gr_burst_tagger.i"
+%include "gr_cpm.i"
